@@ -8,4 +8,5 @@ def solution(money):
         elif money >= coin:
             answer += money // coin
             money %= coin
+            
     return answer
